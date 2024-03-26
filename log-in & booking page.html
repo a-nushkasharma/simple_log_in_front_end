@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Little Lemon</title>
+
+  <meta property="og:title" content="Our Menu">
+  <meta property="og:type"  content="website">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:url"   content="https://littlelemon/">
+  <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Little Lemon">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png">
+  </header>
+  <main>
+    <form>
+      <fieldset>
+        <legend>Log-In</legend>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required minlength="2">
+      </div>
+      <div>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" required minlength="2">
+      </div>
+      <button type="submit">Log In</button>
+    </fieldset>
+    <fieldset>
+      <legend>Table Booking</legend>
+      <div>
+        <label for="email">Enter your e-mail:</label><br>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="datebooking">Select date of booking</label><br>
+        <input type="date" id="datebooking" name="datebooking">
+      </div>
+      <div>
+        <label for="number">Select the number of people:</label><br>
+        <input type="number" id="number" name="number" min="1" max="8">
+
+      </div>
+      <div>
+        <label for="cancel">I agree to the cancellation policy</label><br>
+        <input type="checkbox" id="cancel" name="cancel">
+
+      </div>
+      <button type="submit">Book Now</button>
+    </fieldset>
+    </form>
+
+  </main>
+</body>
+
+</html>
